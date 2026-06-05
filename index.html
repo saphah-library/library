@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>403</title>
+
+<link rel="stylesheet" href="https://saphah-library.github.io/firebase/_data/css/public.css">
+
 <style>
 html, body {
     height: 100%;
     margin: 0;
-    background-color: #0a0a0a;
-    color: #c0c0c0;
     font-family: Consolas, monospace;
 }
 
@@ -17,29 +18,77 @@ html, body {
     align-items: center;
     justify-content: center;
     height: 100%;
+    padding: 20px;
 }
 
 .box {
+    max-width: 700px;
     text-align: left;
     line-height: 1.6;
 }
 
 .code {
     color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .msg {
-    margin-top: 8px;
-    color: #bbb;
+    margin-top: 10px;
+}
+
+.glow {
+    color: #00ff88;
+}
+
+.dim {
+    opacity: 0.8;
 }
 </style>
+
 </head>
+
 <body>
+
 <div class="container">
-    <div class="box">
-        <div class="code">403 Forbidden</div>
-        <div class="msg">No public index available at this stage.</div>
+    <div class="box public-card">
+
+        <div class="code">ACCESS TRACE: UNAUTHORIZED ENTRY VECTOR DETECTED</div>
+
+        <div class="msg glow">
+            You should not be here.
+        </div>
+
+        <div class="msg">
+            Yet somehow… the path opened anyway.
+        </div>
+
+        <div class="msg dim">
+            What you’ve stumbled into is not a website.
+        </div>
+
+        <div class="msg dim">
+            It is a fragment of a hidden library — a structure that remembers those who pass too close.
+        </div>
+
+        <div class="msg">
+            If you are reading this, you are already inside its margin.
+        </div>
+
+        <div class="msg glow" style="margin-top:18px;">
+            Turn back if you came looking for certainty.
+        </div>
+
+        <div class="msg">
+            Or continue… and let the system decide what you were meant to find.
+        </div>
+
+        <div class="msg code" style="margin-top:18px;">
+            // END TRANSMISSION //
+        </div>
+
     </div>
 </div>
+
 </body>
 </html>
