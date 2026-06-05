@@ -1,0 +1,26 @@
+title: Saphah Library
+description: Library Display Service
+
+collections:
+  library:
+    output: true
+    permalink: /library/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: library
+    values:
+      layout: default
+
+include:
+  - firebase/_data/library
+
+exclude:
+  - node_modules
+  - tools
+  - firebase/_data/vault*
+  - firebase/_data/main
+  - firebase/_data/vault1
+  - firebase/_data/vault2
+  - firebase/_data/vault3
